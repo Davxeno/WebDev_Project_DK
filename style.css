@@ -20,7 +20,7 @@ color:#65081F
 }
 
 body{
-background-image: "url(Pictures/page_background.jpg)" ;
+background-image: url(page_background.jpg) ;
 background-position: center;
 background-size: cover;
 min-height: 100vh;
@@ -29,25 +29,36 @@ background-attachment: fixed;
 
 }
 
-nav{
+nav.btn{
 display: inline-block;
 padding: 10px 20px;  
 background-color: #b3a67d;
 text-decoration: none;
 border-radius: 5px;
 color: black;
+list-style: none;
+border: 2px solid black;
+
+
 
 }
 
 
-nav:visited{
+nav.btn:visited{
 color:#B3EBF2 ;
 
 }
 
-nav:visited{
+nav.btn:visited{
 color:#65081F
 
 
 }
 
+.nav-bar {
+  list-style: none;
+  display: flex;
+  gap: 15px; 
+  padding: 0;
+  margin: 0;
+}
