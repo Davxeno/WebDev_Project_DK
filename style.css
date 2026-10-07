@@ -20,7 +20,7 @@ color:#65081F
 }
 
 body{
-background-image: "/Pictures/page_background.jpg" ;
+background-image: "url(Pictures/page_background.jpg)" ;
 background-position: center;
 background-size: cover;
 min-height: 100vh;
