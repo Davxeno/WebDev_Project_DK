@@ -1,0 +1,50 @@
+p {
+color: #B3EBF2;
+
+}
+body {
+font-family: "ITC Stone Informal", Arial;
+    
+}
+
+h1{
+color: black
+
+
+}
+
+h2,h3{
+color:#65081F
+
+
+}
+
+body{
+background-image: "Pictures/page_background.jpg" ;
+background-position: center;
+background-size: cover;
+
+}
+
+nav{
+display: inline-block;
+padding: 10px 20px;  
+background-color: #b3a67d;
+text-decoration: none;
+border-radius: 5px;
+color: black;
+
+}
+
+
+nav:visited{
+color:#B3EBF2 ;
+
+}
+
+nav:visited{
+color:#65081F
+
+
+}
+
