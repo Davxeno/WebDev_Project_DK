@@ -61,8 +61,8 @@ color:#65081F
 }
 
 #store{
-width: 300px; 
-height: 400px;
+width: 300; 
+height: 600px;
 border: 2px solid black;
 margin: 5px;
 box-sizing: border-box;
