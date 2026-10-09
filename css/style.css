@@ -61,7 +61,7 @@ color:#65081F
 }
 
 #store{
-width: 300; 
+width: 500px; 
 height: 600px;
 border: 2px solid black;
 margin: 5px;
@@ -70,4 +70,16 @@ border-radius: 5px;
 }
 
 
+#news{
 
+width: 500px; 
+height: 600px;
+border: 2px solid black;
+margin: 5px;
+box-sizing: border-box;
+border-radius: 5px; 
+position: absolute;
+left: 600px;
+down: 600px;
+
+}
