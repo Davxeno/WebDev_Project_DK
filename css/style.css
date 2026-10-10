@@ -7,6 +7,7 @@ font-family: "ITC Stone Informal", Arial;
     
 }
 
+
 h1{
 color: black
 
@@ -20,7 +21,7 @@ color:#65081F
 }
 
 body{
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfKp4vIKgBJh9xD9D8GVuCCgAM4ExyCD8Sk0QRpn78yA&s=10");
+background-image: url("../Pictures/page_background.jpg");
 background-position: center;
 background-size: cover;
 min-height: 100vh;
@@ -67,8 +68,23 @@ border: 2px solid black;
 margin: 5px;
 box-sizing: border-box;
 border-radius: 5px; 
+float: left;
+padding: 5px;
+position: absolute;
+left: 50px;
 }
 
+#store h1{
+
+text-align: center;
+
+}
+
+#news h1{
+
+text-align: center;
+
+}
 
 #news{
 
@@ -79,7 +95,24 @@ margin: 5px;
 box-sizing: border-box;
 border-radius: 5px; 
 position: absolute;
-left: 600px;
-down: 600px;
+left: 700px;
+padding: 5px;
+}
+
+
+#AotW{
+border: 2px solid black;
+margin-left: 55px;
+margin-right: 55px;
+box-sizing: border-box;
+border-radius: 5px; 
+padding: 5px;
 
 }
+
+#AotW h2{
+text-indent: 420px;
+font-size:xx-large;
+line-height:25%;
+}
+
