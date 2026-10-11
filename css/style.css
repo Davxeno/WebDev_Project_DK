@@ -50,12 +50,12 @@ background-attachment: fixed;
 }
 
 
-nav.btn:visited{
+.nav-btn:hover{
 color:#B3EBF2 ;
 
 }
 
-nav.btn:visited{
+.nav-btn:visited{
 color:#65081F
 
 
@@ -107,12 +107,26 @@ margin-right: 55px;
 box-sizing: border-box;
 border-radius: 5px; 
 padding: 5px;
-
+overflow: hidden;
+display: block;
+display: flow-root; 
 }
+
+
 
 #AotW h2{
 text-indent: 420px;
 font-size:xx-large;
 line-height:25%;
 }
+
+#AotW img {
+float: right;
+margin-left: 15px;
+margin-bottom: 5px;
+padding: 5px;
+
+}
+
+
 
