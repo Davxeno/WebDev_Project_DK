@@ -1,6 +1,10 @@
 p {
 color: black;
 font-size: 1.25rem;
+text-shadow: -0.25px -0.25px  #FFFFFF,  
+     0.25px -0.25px #FFFFFF,
+    -0.25px  0.25px  #FFFFFF,
+     0.25px  0.25px  #FFFFFF;
 
 }
 body {
