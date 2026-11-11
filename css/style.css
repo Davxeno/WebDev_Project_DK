@@ -1,33 +1,51 @@
 p {
-color: #B3EBF2;
+color: navy;
+font-size: 1.25rem;
 
 }
 body {
-font-family: "ITC Stone Informal", Arial;
+font-family: "ITC Stone Informal", "Arial", "Comic Sans MS";
     
 }
 
 
-h1{
+h1,h2{
 color: black
 
 
 }
 
-h2,h3{
+h3,h4{
 color:#65081F
 
-
 }
-
 body{
-background-image: url("../Pictures/images.jpg");
+background-image: url("../Pictures/daybackground.jpg");
 background-position: center;
 background-size: cover;
 min-height: 100vh;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
+
+.dark-mode {
+  background-image: url("../Pictures/nightbackground.jpg");
+
+}
+
+.dark-mode p {
+color:#B3EBF2;
+
+}
+
+.dark-mode h1,h2 {
+color:white
+}
+
+.dark-mode h3,h4 {
+  color:#DC143C ;
+}
+
 .nav-bar {
   list-style: none;
   display: flex;
