@@ -1,5 +1,5 @@
 p {
-color: lawngreen;
+color: black;
 font-size: 1.25rem;
 
 }
@@ -127,7 +127,8 @@ border-radius: 5px;
 padding: 5px;
 overflow: hidden;
 display: block;
-display: flow-root; 
+display: flow-root;
+background: linear-gradient(135deg, #D6B588 0%, #FAF9F6 100%);; 
 }
 
 
