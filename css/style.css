@@ -13,10 +13,8 @@ font-family: "ITC Stone Informal", "Arial", "Comic Sans MS";
 }
 
 
-h1,h2{
+h1 h2{
 color: black
-
-
 }
 
 button{
@@ -25,7 +23,7 @@ padding 5px;
 
 }
 
-h3,h4{
+h3, h4{
 color:#65081F
 
 }
@@ -48,33 +46,50 @@ color:#B3EBF2;
 
 }
 
-.dark-mode h1,h2 {
+.dark-mode h1{
 color:white
+}
+
+.dark-mode h2{
+  color: white;
 }
 
 .dark-mode h3,h4 {
   color:#DC143C ;
 }
 
+.dark-mode div {
+
+background: linear-gradient(135deg, #80A0AF 0%, #525252 100%);
+
+}
+
 .nav-bar {
-  list-style: none;
   display: flex;
   gap: 15px; 
-  padding: 0;
+  padding: 0 20px;
   margin: 0;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 
 .nav-btn {
-  display: inline-block;
-  padding: 10px 20px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  height: 40px;
   background-color: transparent; 
   color: black;               
   border: 2px solid black;     
   text-decoration: none;
   border-radius: 5px;            
   font-weight: bold;
-  transition: all 0.2s ease;     
+  transition: all 0.2s ease;    
+  box-sizing: border-box; 
 }
 
 
@@ -127,6 +142,10 @@ left: 700px;
 padding: 5px;
 }
 
+.dark-mode #AotW {
+  background: linear-gradient(135deg, #80A0AF 0%, #525252 100%);
+}
+
 
 #AotW{
 border: 2px solid black;
@@ -140,7 +159,6 @@ display: block;
 display: flow-root;
 background: linear-gradient(135deg, #D6B588 0%, #FAF9F6 100%);
 }
-
 
 
 #AotW h2{
