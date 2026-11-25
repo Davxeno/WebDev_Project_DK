@@ -266,13 +266,12 @@ color:#65081F;
 }
 
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
 #news, #store {
 width: 85vw; 
 height: 600px;
 border: 2px solid black;
 margin: 5px;
-margin-right: auto;
 box-sizing: border-box;
 border-radius: 5px;
 padding: 5px;
