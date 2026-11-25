@@ -19,7 +19,7 @@ color: black
 
 button{
 
-padding 5px;
+padding: 5px;
 
 }
 
@@ -177,6 +177,15 @@ padding: 5px;
 
 div {
 background: linear-gradient(135deg, #D6B588 0%, #FAF9F6 100%);
+border: 2px solid black;
+margin-left: 55px;
+margin-right: 55px;
+box-sizing: border-box;
+border-radius: 5px; 
+padding: 5px;
+overflow: hidden;
+display: block;
+display: flow-root;
 }
 
 #Sofia 
@@ -190,5 +199,14 @@ background: linear-gradient(135deg, #D6B588 0%, #FAF9F6 100%);
   border-radius: 5px;
   width: 400px;
   height: 800px;
+
+}
+
+.news_img {
+  display: block;
+  margin: auto;
+  width: 85%;
+  object-fit: contain;
+  padding: 5px;
 
 }
