@@ -104,7 +104,7 @@ color:#65081F;
 
 }
 
-@media screen and (min-width 600px){
+@media screen and (min-width: 600px){
 #store{
 width: 500px; 
 height: 600px;
@@ -131,6 +131,7 @@ text-align: center;
 
 }
 
+@media screen and (min-width: 600px){
 #news{
 
 width: 500px; 
@@ -142,6 +143,7 @@ border-radius: 5px;
 position: absolute;
 left: 700px;
 padding: 5px;
+}
 }
 
 .dark-mode #AotW {
