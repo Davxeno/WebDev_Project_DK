@@ -278,7 +278,6 @@ margin: 5px;
 box-sizing: border-box;
 border-radius: 5px;
 padding: 5px;
-position: absolute;
 display: flex;
 margin-right: auto;
   }
@@ -293,6 +292,5 @@ margin: 5px;
 box-sizing: border-box;
 border-radius: 5px; 
 padding: 5px;
-position: absolute;
 }
 }
