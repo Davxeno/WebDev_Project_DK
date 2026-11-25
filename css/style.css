@@ -104,7 +104,7 @@ color:#65081F;
 
 }
 
-
+@media screen and (min-width 600px){
 #store{
 width: 500px; 
 height: 600px;
@@ -116,6 +116,7 @@ float: left;
 padding: 5px;
 position: absolute;
 left: 50px;
+  }
 }
 
 #store h1{
@@ -267,7 +268,7 @@ color:#65081F;
 
 
 @media screen and (max-width: 600px) {
-#news, #store {
+#news {
 width: 85vw; 
 height: 600px;
 border: 2px solid black;
@@ -281,3 +282,15 @@ margin-right: auto;
   }
 }
 
+@media screen and (max-width: 600px) {
+#store {
+width: 85vw; 
+height: 600px;
+border: 2px solid black;
+margin: 5px;
+box-sizing: border-box;
+border-radius: 5px; 
+padding: 5px;
+position: absolute;
+}
+}
