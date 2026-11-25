@@ -210,3 +210,18 @@ display: flow-root;
   padding: 5px;
 
 }
+
+.home{
+  padding: 10px;
+  height: 40px;
+  background-color: transparent; 
+  color: black;               
+  border: 2px solid black;     
+  text-decoration: none;
+  border-radius: 5px;            
+  font-weight: bold;
+  transition: all 0.2s ease;    
+  box-sizing: border-box; 
+  display: flex;
+}
+
